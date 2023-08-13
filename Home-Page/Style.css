@@ -10,6 +10,9 @@ a{
     text-decoration: none;
     cursor: pointer;
 }
+li{
+    list-style: none;
+}
 button{
     cursor: pointer;
 }
@@ -244,4 +247,172 @@ main{
     gap: 20px;
     width: 100%;
     max-width: 500px;
+}
+
+/* ----mian-cart---- */
+
+.main-top-text{
+    padding-top: 40px;
+    text-align: center;
+}
+.main-top-text h2{
+    color: white;
+    font-size: 2.5rem;
+}
+.main-container-cart{
+    justify-content: space-between;
+    display: flex;
+}
+.main-cart{
+    padding: 30px 0px;
+    color: white;
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+}
+.main-cart h2{
+    font-size: 2rem;
+    padding: 10px 0px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.541);
+}
+.main-cart h3{
+    font-size: 1.5rem;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.main-cart p{
+    opacity: 0.7;
+}
+
+/* ----Portfolio---- */
+.Portfolio{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.Portfolio h2{
+    color: white;
+    font-size: 2.5rem;
+}
+/* -----swiper----- */
+.sample-slider{
+    width:80%;
+    height: 400px;
+}
+.sample-slider img{
+    width: 100%;
+}
+.portfolio-container{
+    padding: 100px 0px;
+}
+
+
+/* ----aside---- */
+aside{
+    padding: 50px 0px;
+}
+.aside-top-text{
+    padding-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+.aside-top-text p{
+    color: white;
+    font-size: 2rem;
+    width: 100%;
+    max-width: 500px;
+}
+.aside-contaienr{
+    gap: 20px;
+    width: 100%;
+    border: 1px solid white;
+    padding: 100px ;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.aside-contaienr a{
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 5px 40px;
+    background-color: #9fb576;
+    position: relative;
+}
+.aside-contaienr a::after{
+    position: absolute;
+    content: '';
+    border: 1px solid white;
+    width: 110%;
+    height: 100%;
+    top: -8px;
+    right: -8px;
+}
+.aside-contaienr input{
+    color: white;
+    border: 1px solid white;
+    outline: none;
+    background-color: transparent;
+    padding: 5px 15px;
+}
+.aside-contaienr input::placeholder{
+    color: 
+    gray;
+}
+
+
+/* ---footer---- */
+footer{
+    padding: 50px 0px;
+    background-color: #9fb576;
+}
+.footer-top{
+    border-bottom: 2px solid white;
+    margin: 0px 80px;
+    padding-bottom:10px ;
+    display: flex;
+    justify-content:center;
+}
+.footer-top ul{
+    display: flex;
+    gap: 50px;
+}
+.footer-top ul a{
+    transition: .4s;
+    color: white;
+    font-size: 20px;
+}
+.footer-top ul a:hover{
+    opacity: 0.5;
+}
+.footer-center{
+    padding: 30px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    color: white;
+}
+.footer-center p{
+    transition: .4s;
+    cursor: pointer;
+
+}
+.footer-center p:hover{
+    opacity: 0.5;
+}
+.footer-botton{
+    color: white;
+    font-size: 20px;
+    display:flex;
+    justify-content: center;
+    gap: 30px;
+}
+.footer-botton i{
+    transition: .4s;
+    cursor: pointer;
+    
+}
+.footer-botton i:hover{
+    opacity: 0.5;
 }
