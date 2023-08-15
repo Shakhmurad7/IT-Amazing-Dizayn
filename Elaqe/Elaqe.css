@@ -137,7 +137,7 @@ body {
     position: absolute;
     content: '';
     width: 100%;
-    right:64%;
+    right:58%;
     top: 50%;
     height: 3px;
     background-color: white;
@@ -146,7 +146,7 @@ body {
     position: absolute;
     content: '';
     width: 100%;
-    left:64%;
+    left:58%;
     top: 50%;
     height: 3px;
     background-color: white;
@@ -158,39 +158,37 @@ body {
     color: white;
     font-size: 2.5rem;
   }
-/* ---section---- */
-.section-top{
-    padding: 40px;
-    display: flex;
-    gap: 40px;
-}
-.section-top-item{
-    color: white;
-    padding-top:20px ;
-    text-align: start;
-}
 
-/* ---swiper---- */
-.swiper-pagination-bullet{
-    width: 0% !important;
-}
-.sample-slider{
-    width:100%;
-}
-.sample-slider img{
-    width: 100%;
-}
 .aside-text-top{
     text-align: center;
     display: flex;
     justify-content: center;
 }
 
-.Portfolio{
-    color: white;
-    padding: 50px;
-    text-align: center;
+
+
+.section-container{
+    padding: 40px 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
 }
+.section-block-top , .section-block-bottom{
+    cursor: pointer;
+    display: flex;
+    gap: 40px;
+    color: white;
+}
+.section-block-bottom i{
+    font-size: 30px;
+}
+.ssection-block-row{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
 /* ----aside----- */
 
 .aside-text-top h2{
