@@ -22,7 +22,7 @@ const swiper2 = new Swiper(".sample-slide", {
   },
 });
 
-const swiper = new Swiper(".swiper", {
+const swiper = new Swiper(".swiper.hero", {
   loop: true,
   autoplay: {
     delay: 2000,
