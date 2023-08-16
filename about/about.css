@@ -3,9 +3,9 @@ body {
   margin: 0;
   padding: 0;
 }
-/* html {
+html {
     overflow-x: hidden;
-  } */
+  }
 a {
   text-decoration: none;
   cursor: pointer;
@@ -415,6 +415,20 @@ footer {
   }
 }
 @media (max-width: 1150px) {
+    .section-top-text h2::after{
+        right: 68%;
+    }
+    .section-top-text h2::before{
+        left: 68%;
+    }
+    .team-top-text h2::after{
+        right: 68%;
+    }
+    .team-top-text h2::before{
+        left: 68%;
+    }
+
+
   .footer-top {
     border-bottom: 0px;
     justify-content: flex-start;
@@ -503,4 +517,82 @@ footer {
 }
 .header-top-center ul a li:hover::before {
   width: 50%;
+}
+@media (max-width: 992px){
+    .content-block img{
+        width: 100%;
+    }
+    .content-block{
+        display:flex;
+        flex-direction: column;
+    }
+    .team-page{
+        gap: 40px;
+    }
+    .section-block-top{
+        text-align: start;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .section-block-bottom{
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .section-container{
+        padding: 20px;
+        align-items: start;
+    }
+    .section-container{
+        justify-content: space-between;
+        flex-direction: row;
+        display: flex;
+    }
+    .aside-container img{
+        max-width: 500px;
+        width: 100%;
+    }
+    .aside-container{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .aside-button-flex{
+        justify-content: center;
+    }
+}
+@media (max-width: 910px){
+    .team-page{
+        flex-wrap: wrap;
+    }
+    .section-top-text h2::after{
+        right: 75%;
+    }
+    .section-top-text h2::before{
+        left: 75%;
+    }
+    .team-top-text h2::after{
+        right: 75%;
+    }
+    .team-top-text h2::before{
+        left: 75%;
+    }
+}
+@media (max-width: 640px){
+    .team-top-text h2::before , .team-top-text h2::after , .section-top-text h2::before , .section-top-text h2::after{
+        display: none;
+    }
+    .Big-container{
+        padding: 20px;
+    }
+    .aside-row-input{
+        display: flex;
+        flex-direction: column;
+    }
+    .section-container{
+        align-items: center;
+        flex-direction: column;
+    }
 }
