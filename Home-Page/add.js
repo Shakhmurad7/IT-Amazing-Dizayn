@@ -12,7 +12,7 @@ const swiper = new Swiper('.sample-slider', {
         slideShadows: false,            // Presence of shadow on the surfaces of the prev and next slides
     },
     pagination: {                       // pagination(dots)
-        el: '.swiper-pagination',
+        el: '.swiper-pagination1',
     },
     navigation: {                       // navigation(arrows)
         nextEl: ".swiper-button-next",
