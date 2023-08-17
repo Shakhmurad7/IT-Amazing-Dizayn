@@ -199,12 +199,13 @@ body {
   .section-big-cart{
     padding-top: 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
   }
   .section-container-cart{
+    gap: 80px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+
   }
 
   
