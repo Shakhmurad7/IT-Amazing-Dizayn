@@ -17,8 +17,11 @@ pElements.forEach((element, i) => {
                 data.forEach(elem => {
                     cartContent += `
                     <div class="section-block-cart">
-                          <img src="${elem.img[0].img}">
-                          <p>lorem</p>
+
+                        <a href="../Portfolio/single.html?id=${elem.id}">
+                        <img src="${elem.img[0].img}">
+                        <p>lorem</p>
+                        </a>
                     </div>`;
                 });
                 sectionbigcart.innerHTML = cartContent;
@@ -36,8 +39,10 @@ fetch(url)
         data.forEach(elem => {
             cartContent += `
             <div class="section-block-cart">
-                  <img src="${elem.img[0].img}">
-                  <p>lorem</p>
+                        <a href="../Portfolio/single.html?id=${elem.id}">
+                        <img src="${elem.img[0].img}">
+                        <p>lorem</p>
+                        </a>
             </div>`;
         });
         sectionbigcart.innerHTML = cartContent;
