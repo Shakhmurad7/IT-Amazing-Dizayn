@@ -5,6 +5,8 @@ fetch(url).then((req) => req.json()).then((data)=>{
     console.log(data);
     setid(data)
 })
+
+
 function setid(data){
     sectionbigcart.forEach((elem, i)=>{
         elem.src = data.img[i].img
