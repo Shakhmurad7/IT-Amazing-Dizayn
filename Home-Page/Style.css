@@ -111,7 +111,7 @@ header {
 }
 
 .Big-container {
-  padding: 20px 150px;
+  padding: 20px 150px !important;
 }
 .header-container {
   display: flex;
